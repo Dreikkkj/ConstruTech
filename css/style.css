@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    margin-top: 0;
+    margin-top: -83px;
     width: 100%;
     height: 80px;
     z-index: 1000;
@@ -28,23 +28,31 @@ body {
     font-size: 20px;
 }
 
-.menu-superior a:hover {
-    color: #af5f3a;
-}
-
 .menu-superior a {
+    color: white;
     text-decoration: none;
-    color: #e9dfc7;
-    font-weight: 700;
-
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
 }
-
+.menu-superior a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.menu-superior a.active {
+    background-color: #F17300;
+}
+body {
+    padding-top: 80px;
+}
 .logo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-
 .logo img {
     height: 118px;
     display: flex;
