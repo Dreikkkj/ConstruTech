@@ -20,8 +20,10 @@
     <?php
     require_once './partials/header.php';
     ?>
-    <br><br><br><br><br><br><br>
+
     <div class="conteiner-box">
+        <span class="iconresumo"><img src="./src/icons/financa.png" alt="Ícone de Resumo">
+    </span>
         <h2>Resumo Financeiro</h2>
         <p>Visão geral do valor investido no estoque.</p>
     </div>
