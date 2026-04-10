@@ -23,38 +23,38 @@
 
     <div class="conteiner-box">
         <div class="maintitle">
-            <h2>Resumo Financeiro</h2>
+            <h2><img src="./src/icons/financa.png" alt="Ícone de Resumo Financeiro" class="icon1">Resumo Financeiro</h2>
             <p>Visão geral do valor investido no estoque.</p>
         </div>
     </div>
     <div class="conteiner-valores">
         <div class="valor-estoque">
-            <h3>Valor Total em Estoque</h3>
+            <h3><img src="./src/icons/coin1.png" alt="Ícone de Moeda" class="icon2">Valor Total em Estoque</h3>
             <!--Colocar php aqui no valor-->
             <p>R$ 10.000,00</p>
         </div>
         <div class="total-unidades">
-            <h3>Total de unidades</h3>
-            <p>R$ 500,00</p>
+            <h3><img src="./src/icons/cube.png" alt="Ícone de Cubo" class="icon3">Total de unidades</h3>
+            <p>50</p>
         </div>
         <div class="produtos-cadastrados">
 
-            <h3>Produtos cadastrados</h3>
-            <p>R$ 8.000,00</p>
+            <h3><img src="./src/icons/list.png" alt="Ícone de Lista" class="icon4">Produtos cadastrados</h3>
+            <p>20</p>
         </div>
     </div>
-    <div class="valor-categoria">
+    <div class="linha-baixo">
+        <div class="valor-categoria">
+            <h3><img src="./src/icons/graph.png" class="icon5">Valor por Categoria</h3>
+            <p>R$ 4.000,00 - Materiais de Construção</p>
+            <p>R$ 2.000,00 - Ferramentas</p>
+        </div>
 
-        <h3>Valor por Categoria</h3>
-        <p>R$ 4.000,00 - Materiais de Construção</p>
-        <p>R$ 2.000,00 - Ferramentas</p>
+        <div class="tier-list">
+            <h3><img src="./src/icons/trofeu.png" class="icon6">Top 5 Produtos por Valor</h3>
+            <p>Produtos mais valiosos: Cimento, Aço, Tinta</p>
+        </div>
     </div>
-    <div class="tier-list">
-
-        <h3>Top 5 Produtos por Valor</h3>
-        <p>Produtos mais valiosos: Cimento, Aço, Tinta</p>
-    </div>
-
 </body>
 
 </html>
