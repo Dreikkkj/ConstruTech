@@ -1,0 +1,180 @@
+body {
+    background-color: #dbe4ee;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 900px;
+    min-height: 400px;
+    margin: 50px auto;
+    margin-top: 170px;
+    border: 2px solid #e0dede;
+
+  
+}
+
+.sub1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #054a91;
+    text-align: left;
+    margin: 0;
+    
+}
+
+.box2{
+   background-color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #e0dede;
+    padding: 30px;
+    max-width: 100%;
+    min-height: 400px;
+    text-align: left;
+}
+
+.sub p{
+    text-align: left;
+    color: #666666;
+}
+.sub{
+    text-align: left;
+    align-items: column;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.inputBox label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.inputUser {
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333333;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%; 
+    box-sizing: border-box;
+}
+.btn {
+    background-color: #F17300;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+.btn:hover {
+    background-color: #d95c00;
+}
+
+.asterisco {
+    color: #e63946; 
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+
+.linha-inputs {
+    display: flex;
+    gap: 20px; 
+    margin-bottom: 20px;
+}
+
+
+.linha-inputs .inputBox {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+.box-nome {
+    flex: 2;
+}
+
+.box-categoria {
+    flex: 1; 
+}
+
+.caixa-imagem {
+    width: 100px; 
+    height: 100px;
+    border: 2px dashed #cccccc; 
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    overflow: hidden; 
+}
+
+.container-upload {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    margin-top: 10px;
+    margin-bottom: 25px; 
+}
+
+.imagem-preview {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+.input-arquivo {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
+
+
+.input-arquivo::file-selector-button {
+    font-family: "Lexend Deca", sans-serif; 
+    font-weight: 500;
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #054a91;
+    cursor: pointer;
+    margin-right: 10px; 
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+}
+
+
+.input-arquivo::file-selector-button:hover {
+    background-color: #e2e6ea;
+}
+
+.titulo-flex {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    margin-bottom: 5px; 
+}
+
