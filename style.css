@@ -300,11 +300,31 @@ body {
     width: 100px;
     height: auto;
     vertical-align: middle;
-    margin-left: -55px;
+    margin: 0;
 }
 .icon2 {
     width: 100px;
     height: auto;
     vertical-align: middle;
     margin-left: 30px;
+}
+
+/**Movimentação**/
+
+.movh2 {
+    font-size: 28px;
+    color: #054A91;
+    margin-bottom: 10px;
+    margin-left: -680px;
+    font-size: 30px;
+    margin-top: -2px;
+}
+
+.movp {
+    font-size: 18px;
+    color: #333333ad;
+    margin-bottom: 20px;
+    margin-left: -700px;
+    margin-top: -10px;
+    font-size: 20px;
 }

@@ -20,6 +20,12 @@
         <?php
         require_once './partials/header.php';
         ?>
+        <div class="conteiner-box">
+            <div class="maintitle">
+                <h2 class="movh2">Movimentação</h2>
+                <p class="movp">Registre as entradas e saídas de produtos no estoque.</p>
+            </div>
+        </div>
     </body>
 
     </html>
