@@ -14,7 +14,7 @@ body {
     max-width: 900px;
     min-height: 400px;
     margin: 50px auto;
-    margin-top: 170px;
+    margin-top: 100px;
     border: 2px solid #e0dede;
 
   
@@ -177,4 +177,6 @@ body {
     gap: 15px; 
     margin-bottom: 5px; 
 }
+
+
 
