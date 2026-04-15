@@ -2,7 +2,7 @@
     <nav>
         <ul class="menu-superior">
             <div class="logo">
-                <img src="./src/fotos/logocontrutech1.png" alt="Logo da Loja">
+                <img src="./src/fotos/logoconstrutechandrei.png" alt="Logo da Loja">
                 <h1 class="font-cursiva">ConstruTech</h1>
             </div>
             <ul>

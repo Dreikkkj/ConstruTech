@@ -15,7 +15,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lexend+Deca:wght@100..900&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
@@ -87,8 +86,6 @@
                 </div>
             </form>
         </div>
-    </div>
-
     </div>
 
 </body>
