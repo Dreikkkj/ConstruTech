@@ -23,13 +23,13 @@
 
     <div class="conteiner-box">
         <div class="maintitle">
-            <h2><img src="./src/icons/financa.png" alt="Ícone de Resumo Financeiro" class="icon1">Resumo Financeiro</h2>
+            <h2><img src="./src/icons/leaderboard.png" alt="Ícone de Resumo Financeiro" class="icon1">Resumo Financeiro</h2>
             <p>Visão geral do valor investido no estoque.</p>
         </div>
     </div>
     <div class="conteiner-valores">
         <div class="valor-estoque">
-            <h3><img src="./src/icons/coin1.png" alt="Ícone de Moeda" class="icon2">Valor Total em Estoque</h3>
+            <h3><img src="./src/icons/coin.png" alt="Ícone de Moeda" class="icon2">Valor Total em Estoque</h3>
             <!--Colocar php aqui no valor-->
             <p>R$ 10.000,00</p>
         </div>
