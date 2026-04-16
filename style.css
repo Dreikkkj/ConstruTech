@@ -98,9 +98,9 @@ body {
     font-size: 28px;
     color: #054A91;
     margin-bottom: 10px;
-    margin-left: -680px;
+    margin-left: -700px;
     font-size: 30px;
-    margin-top: -2px;
+    margin-top: 10px;
 }
 
 .conteiner-box p {
@@ -155,8 +155,8 @@ body {
 .valor-estoque h3 {
     margin: 0;
     font-size: 18px;
-    font-weight: 700px;
-    margin-left: -200px;
+    font-weight: 700;
+    margin-left: -165px;
     margin-top: 2px;
 }
 
@@ -192,7 +192,7 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: 700px;
-    margin-left: 40px;
+    margin-left: 00px;
     margin-top: 2px;
     color: #5d5d5e;
 }
@@ -227,7 +227,7 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: 700px;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 2px;
     color: #5d5d5e;
 }
@@ -283,7 +283,7 @@ body {
     margin: 0;
     font-size: 22px;
     font-weight: 700px;
-    margin-left: 35px;
+    margin-left: 0px;
     margin-top: -200px;
     color: #414142;
 }
@@ -292,28 +292,24 @@ body {
     margin: 0;
     font-size: 22px;
     font-weight: 700px;
-    margin-left: 35px;
+    margin-left: 0px;
     margin-top: -268px;
     color: #414142;
 }
 
 .icon1,
+.icon2,
 .icon3,
 .icon4,
 .icon5,
 .icon6 {
-    width: 100px;
+    width: 25px;
     height: auto;
     vertical-align: middle;
-    margin: 0;
+    margin-right: 10px;
+    margin-top: -5px;
 }
 
-.icon2 {
-    width: 100px;
-    height: auto;
-    vertical-align: middle;
-    margin-left: 30px;
-}
 
 /**Movimentação**/
 
