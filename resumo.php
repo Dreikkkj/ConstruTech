@@ -51,7 +51,7 @@
         </div>
 
         <div class="tier-list">
-            <h3><img src="./src/icons/trofeu.png" class="icon6">Top 5 Produtos por Valor</h3>
+            <h3><img src="./src/icons/trophy.png" class="icon6">Top 5 Produtos por Valor</h3>
             <p>Produtos mais valiosos: Cimento, Aço, Tinta</p>
         </div>
     </div>
