@@ -76,29 +76,35 @@ body {
 
 .conteiner-box {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
     background-color: #ffffff;
     width: 77%;
     height: 700px;
-    margin-left: auto;
-    margin-top: 35px;
-    margin-right: auto;
+    margin: 35px auto 0 auto;
+    padding: 30px;
     border-radius: 10px;
-    border-color: #ffffff;
-    border-width: 10px;
-    border-style: solid;
+    border: 10px solid #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+}
+
+.maintitle {
+    width: 100%;
+    height: max-content;
+    color: #054A91;
+    font-size: 30px;
+    margin: 0 0 20px 5px;
+    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .conteiner-box h2 {
     font-size: 28px;
     color: #054A91;
     margin-bottom: 10px;
-    margin-left: -700px;
     font-size: 30px;
     margin-top: 10px;
 }
@@ -107,7 +113,6 @@ body {
     font-size: 18px;
     color: #333333ad;
     margin-bottom: 20px;
-    margin-left: -700px;
     margin-top: -10px;
     font-size: 20px;
 }
@@ -120,15 +125,6 @@ body {
     justify-content: center;
     margin-top: -550px;
     padding: 20px;
-}
-
-.maintitle {
-    font-size: 28px;
-    color: #054A91;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-top: -10px;
-    font-size: 30px;
 }
 
 /**Valor do Estoque**/
@@ -314,19 +310,103 @@ body {
 /**Movimentação**/
 
 .movh2 {
-    font-size: 28px;
-    color: #000000;
-    margin-bottom: 10px;
-    margin-left: -680px;
-    font-size: 30px;
-    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #004a99;
+    font-size: 24px;
+    margin: 0;
+    margin-left: -20px;
 }
 
 .movp {
+    color: #666;
+    margin: 5px 0 0 35px;
+    margin-left: -20px;
+}
+
+.cimento {
+    position: relative;
+    border: 2px solid #FFD700;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 180px;
+    min-height: 180px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 0 0 20px;
+}
+
+/* Título e Imagem dentro do card */
+.cimento h3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     font-size: 18px;
-    color: #333333ad;
-    margin-bottom: 20px;
-    margin-left: -700px;
-    margin-top: 100px;
+    margin: 0 0 10px 0;
+}
+
+.cimento h3 img {
+    width: 50px;
+    height: 50px;
+    background: #f1f3f5;
+    border-radius: 8px;
+}
+
+/* card de Categoria */
+.cimento p:first-of-type {
+    background-color: #fef4d8;
+    color: #856404;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 65px;
+}
+
+.qntd-estoque {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    line-height: 1;
+}
+
+.qntd-estoque::before {
+    content: "3";
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #b8860b;
+}
+
+.qntd-estoque {
+    color: #99aab5;
+    font-size: 12px;
+}
+
+/* Botões Adicionar e Remover */
+.add,
+.remove {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
     font-size: 20px;
+}
+
+.add {
+    background-color: #002d5e;
+    width: 60%;
+    margin-right: 5px;
+}
+
+.remove {
+    background-color: #f27405;
+    width: 35%;
 }

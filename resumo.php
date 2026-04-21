@@ -4,11 +4,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resumo Financeiro</title>
     <link rel="stylesheet" href="./style.css">
-     <!-- Fontes -->
+    <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,7 +22,8 @@
 
     <div class="conteiner-box">
         <div class="maintitle">
-            <h2><img src="./src/icons/leaderboard.png" alt="Ícone de Resumo Financeiro" class="icon1">Resumo Financeiro</h2>
+            <h2><img src="./src/icons/leaderboard.png" alt="Ícone de Resumo Financeiro" class="icon1">Resumo Financeiro
+            </h2>
             <p>Visão geral do valor investido no estoque.</p>
         </div>
     </div>

@@ -1,10 +1,7 @@
 <!DOCETYPE html>
     <html>
-    <!-- andrei -->
-
     <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movimentação</title>
     <!-- fontes -->
@@ -21,15 +18,15 @@
         ?>
         <div class="conteiner-box">
             <div class="maintitle">
-                <h2 class="mov">Movimentação</h2>
-                <p class="mov">Adicione ou remova unidades de produtos existentes.</p>
+                <h2 class="movh2"><img src="./src/icons/movi.png" alt="Ícone de Movimentação" class="icon7">Movimentação</h2>
+                <p class="movp">Adicione ou remova unidades de produtos existentes.</p>
             </div>
             <div class="cimento">
-                <h3><img src="./fotos/imagecadastro.png" alt="Cimento CP-II 5-kg"> CP-II 5-kg</h3>
+                <h3><img src="./fotos/imagecadastro.png" alt="Cimento CP-II 5-kg">Cimento CP-II 5-kg</h3>
                 <p>categoria</p>
                 <P class="qntd-estoque">em estoque</P>
-                <button class="add">Adicionar</button>
-                <button class="remove">Remover</button>
+                <button class="add">+ Entrada</button>
+                <button class="remove">- Saída</button>
             </div>
         </div>
     </body>

@@ -1,3 +1,25 @@
+<?php
+require_once 'init.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    $ids = array_column($_SESSION['produtos'], 'id');
+    $novoId = $ids ? max($ids) + 1 : 1;
+
+    $_SESSION['produtos'][] = [
+        'id' => $novoId,
+        'nome' => $_POST['nome'],
+        'categoria' => $_POST['categoria'],
+        'quantidade' => $_POST['quantidade'],
+        'preco' => $_POST['preco'],
+        'estoque_minimo' => $_POST['estoque_minimo'],
+        'imagem' => $_POST['imagem']
+    ];
+
+    header('Location: produtos.php?produtoadd=1');
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,7 +27,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Produtos - ConstruTech</title>
-   <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./css/eloahcss/cadastro.css">
     <link rel="icon" href="./fotos/logoConstruTech.png">
 
@@ -40,7 +62,8 @@
                 <div class="linha-inputs">
                     <div class="inputBox box-nome">
                         <label for="nome" class="labelInput">Nome do Produto <span class="asterisco">*</span></label>
-                        <input type="text" placeholder="Ex: Cimento CP-II 50kg" name="nome" id="nome" class="inputUser" required>
+                        <input type="text" placeholder="Ex: Cimento CP-II 50kg" name="nome" id="nome" class="inputUser"
+                            required>
                     </div>
 
                     <div class="inputBox box-categoria">
@@ -61,22 +84,27 @@
                     </div>
 
                     <div class="inputBox">
-                        <label for="quantidade" class="labelInput">Preço Unitário (R$) <span class="asterisco">*</span></label>
-                        <input type="number" placeholder="R$ 0,00" step="0.01" name="quantidade" id="quantidade" class="inputUser" required>
+                        <label for="quantidade" class="labelInput">Preço Unitário (R$) <span
+                                class="asterisco">*</span></label>
+                        <input type="number" placeholder="R$ 0,00" step="0.01" name="quantidade" id="quantidade"
+                            class="inputUser" required>
                     </div>
 
                     <div class="inputBox">
                         <label for="localizacao" class="labelInput">Estoque mínimo</label>
-                        <input type="number" placeholder="5" name="localizacao" id="localizacao" class="inputUser" required>
+                        <input type="number" placeholder="5" name="localizacao" id="localizacao" class="inputUser"
+                            required>
                     </div>
                 </div>
 
                 <div class="teste">
-                    <label for="imagem" class="labelInput">Imagem do Produto <span style="color: #888; font-size: 14px;">(opcional)</span></label>
+                    <label for="imagem" class="labelInput">Imagem do Produto <span
+                            style="color: #888; font-size: 14px;">(opcional)</span></label>
 
                     <div class="container-upload">
                         <div class="caixa-imagem">
-                            <img src="./fotos/imagecadastro.png" alt="Imagem do Produto" class="imagem-preview" id="imagemPreview">
+                            <img src="./fotos/imagecadastro.png" alt="Imagem do Produto" class="imagem-preview"
+                                id="imagemPreview">
                         </div>
 
                         <input type="file" id="imagem" name="imagem" accept="image/*" class="input-arquivo">

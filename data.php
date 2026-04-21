@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $nomeloja = "ConstruTech";
 
@@ -7,20 +7,48 @@ $categorias = [
     "ferramentas" => "Ferramentas",
     "acabamento" => "Acabamento",
 ];
+
 $produtos = [
     [
-        "nome" => "Produto 1",
-        "categoria" => "bruto",
-        "preco" => 100.00,
+        'id' => 1,
+        'nome' => 'Cimento CP-II 50kg',
+        'categoria' => 'Bruto',
+        'estoque' => 3,
+        'minimo' => 10
     ],
     [
-        "nome" => "Produto 2",
-        "categoria" => "ferramentas",
-        "preco" => 150.00,
+        'id' => 2,
+        'nome' => 'Areia Média (saco 20kg)',
+        'categoria' => 'Bruto',
+        'estoque' => 8,
+        'minimo' => 15
     ],
     [
-        "nome" => "Produto 3",
-        "categoria" => "acabamento",
-        "preco" => 200.00,
+        'id' => 3,
+        'nome' => 'Brita 1 (saco 20kg)',
+        'categoria' => 'Bruto',
+        'estoque' => 12,
+        'minimo' => 10
     ],
+    [
+        'id' => 4,
+        'nome' => 'Cal Hidratada 20kg',
+        'categoria' => 'Bruto',
+        'estoque' => 5,
+        'minimo' => 8
+    ],
+    [
+        'id' => 5,
+        'nome' => 'Martelo Cabo Madeira',
+        'categoria' => 'Ferramentas',
+        'estoque' => 7,
+        'minimo' => 5
+    ],
+    [
+        'id' => 6,
+        'nome' => 'Furadeira 650W',
+        'categoria' => 'Ferramentas',
+        'estoque' => 2,
+        'minimo' => 3
+    ]
 ];
