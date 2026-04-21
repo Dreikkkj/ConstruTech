@@ -11,13 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'nome' => $_POST['nome'],
         'categoria' => $_POST['categoria'],
         'quantidade' => $_POST['quantidade'],
-        'preco' => $_POST['preco'],
-        'estoque_minimo' => $_POST['estoque_minimo'],
-        'imagem' => $_POST['imagem']
+        'imagem' => $_POST['imagem'],
+        'estoque' => $_POST['minimo'] ?? 0,
     ];
-
-    header('Location: produtos.php?produtoadd=1');
-    exit;
 }
 ?>
 <!DOCTYPE html>
@@ -70,9 +66,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <label for="categoria" class="labelInput">Categoria <span class="asterisco">*</span></label>
                         <select name="categoria" id="categoria" class="inputUser" required>
                             <option value="">Selecione uma categoria</option>
-                            <option value="Cimento">Bruto</option>
-                            <option value="Aço">Ferramentas</option>
-                            <option value="Madeira">Acabamento</option>
+                            <option value="Bruto">Bruto</option>
+                            <option value="Ferramentas">Ferramentas</option>
+                            <option value="Acabamento">Acabamento</option>
                         </select>
                     </div>
                 </div>
